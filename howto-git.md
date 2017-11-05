@@ -1,5 +1,9 @@
 lines with '-' are *not* cmd lines to be entered in shell
 
+# initializing git
+git config user.name 'username'
+git config user.email 'username@mail.com'
+
 # creating a local repository
 mkdir dummy-project : make directory
 cd dummy-project : change to directory
@@ -28,7 +32,7 @@ gedit code.txt # add some random text here
 git status : checking that code.txt has been modified
 git add code.txt : adding code.txt to staging environment
 git status : checking that it has been added 
-git push origin branch-name : pushing change to the remote repo
+git push origin branch-name : pushhing change to the remote repo
 git branch -d branche-name : deleting branch from the local repo
 git push origin --delete branch-name : deleting branch from the remote repo
 
