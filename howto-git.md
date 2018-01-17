@@ -1,6 +1,7 @@
 # initializing git
 - git config user.name 'username'
 - git config user.email 'username@mail.com'
+- git config --global credential.helper "cache --timeout=3600"
 
 # creating a local repository
 - mkdir dummy-project : make directory
